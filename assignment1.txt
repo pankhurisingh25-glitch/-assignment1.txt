@@ -6,3 +6,25 @@ if it is ranning, carry an umbrella.
 if it not ranning do not carry an umbrella.
 eat breakfast.
 go to class.
+
+
+
+Name: Pankhuri
+City: maharashatra
+Favourate Food: Funnalcake
+Hobby: Reading
+I hope to learn: python programing
+
+
+
+ 
+ I Wake up when the alarm rings.
+Brush your teeth and take a bath.
+Check if today is a weekday.
+If yes, wear your uniform.
+If no, wear casual clothes.
+Eat breakfast.
+Check if it is raining.
+If yes, take an umbrella.
+If no, take only your bag.
+Leave home.
