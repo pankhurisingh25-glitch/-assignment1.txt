@@ -1,0 +1,46 @@
+# item1 = int(input("enter 1st price"))
+# item2 = int(input("enter 2nd price"))
+# subtotal = item1 + item2
+# discount = subtotal * 15 /100
+# final_total = subtotal - discount + 99
+
+# print("item 1 price:", item1)
+# print("item 2 price:", item2)
+# print("subtotal: ", subtotal)
+# print("15% discount: -", discount)
+# print("delevery fee:", 99)
+# print("final total:", final_total)
+
+
+
+
+# bill = float(input("total bill:"))
+# friends = int(input("number of friends:"))
+
+# tip = bill * 0.10
+# total = bill + tip
+# each = total / friends
+# print("bill:", bill)
+# print("Tip(10%):", tip)
+# print("total:", total)
+# print("each person pays:", round(each, 2))
+
+
+
+
+
+
+views = int(input("Views: "))
+likes = int(input("Likes: "))
+comments = int(input("Comments: "))
+engagement = ((likes + comments) / views) * 100
+
+
+print("/n--- reel performance ---")
+print("views:", views)
+print("likes:", likes)
+print("comments:", comments)
+print("engagement rate:", round(engagement, 2), "%")
+
+
+ 
