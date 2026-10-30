@@ -1,0 +1,8 @@
+wake up.
+brush my teeth.
+take a bath.
+check if it is ranning.
+if it is ranning, carry an umbrella.
+if it not ranning do not carry an umbrella.
+eat breakfast.
+go to class.
