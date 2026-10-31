@@ -1,0 +1,19 @@
+def calculate_fine(days_late, book_type="standard", is_premium=False):
+    if days_late <= 0:
+        return 0
+    if days_late <= 7:
+        fine = days_late * 2
+    elif days_late <= 14:
+        fine = days_late * 5
+    else:
+        fine = days_late * 10
+    if book_type == "reference":
+        fine = fine * 2
+    if is_premium:
+        fine = fine * 0.5
+    return fine
+
+print(calculate_fine(5))
+print(calculate_fine(10, "reference"))
+print(calculate_fine(20, is_premium=True))
+
