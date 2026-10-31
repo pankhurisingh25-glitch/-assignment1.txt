@@ -1,0 +1,22 @@
+vehicle_type = "car"
+fastag_active = True
+is_national_holiday = False
+
+if not fastag_active:
+    print("Double toll penal applied: cash mode")
+else:
+    if is_national_holiday:
+        print("Festive waiver applied: cash mode")
+    else:
+        if is_national_holiday:
+            print("Festive toll penalty applied: cash mode")
+        else:
+            if vehicle_type == "car":
+                print("Toll: 100 rupees")
+            elif vehicle_type == "suv":
+                print("Toll: 150 rupees")
+            elif vehicle_type == "truck":
+                print("Toll: 300 rupees")
+            else:
+                print("Invalid vehicle type")
+                
