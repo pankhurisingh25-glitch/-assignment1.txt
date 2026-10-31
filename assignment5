@@ -1,0 +1,14 @@
+age = 65
+gender = "male"
+traveling_alone = False
+is_tatkal = False
+is_blackout_date = False
+if (
+    (age >= 60 or (gender == "female" and traveling_alone))
+    and not is_tatkal
+    and not is_blackout_date
+):
+    print("Eligible for lower berth preference and discount")
+else:
+    print("Not eligible")
+ 
