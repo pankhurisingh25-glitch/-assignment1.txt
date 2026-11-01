@@ -1,0 +1,3 @@
+words = ["apple", "banana", "mango", "watermelon", "papaya"]
+longest = max(words, key=lambda w: len(w))
+print("Logest word:", longest)
