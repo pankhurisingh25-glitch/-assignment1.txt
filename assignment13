@@ -1,0 +1,12 @@
+prices = { "pen":10, "notebook": 50, "bag": 500, "pencil": 5, }
+out_of_stock = {"bag", "bottle"}
+order = ["pen", "bag", "notebook", "pencil", "bottle", "pen"]
+
+total = 0
+for item in order:
+    if item in out_of_stock:
+        print(item, "is unavailable")
+    else:
+        total += prices[item]
+        print("final order:", total)
+        
